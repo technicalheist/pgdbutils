@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pgdbutils',
-    version='0.4',
+    version='0.5',
     packages=find_packages(),
     install_requires=[
         'psycopg2'
@@ -12,7 +12,7 @@ setup(
     license='MIT',
     author='Technical Heist',
     author_email='contact@technicalheist.com',
-    url='https://github.com/technicalheist/pg-db-helpers.git',
+    url='https://github.com/technicalheist/pgdbutils.git',
     keywords=['PostgreSQL', 'database', 'CRUD', 'utility'],
     classifiers=[
         'Development Status :: 3 - Alpha',
